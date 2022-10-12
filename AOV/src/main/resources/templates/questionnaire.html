@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body/>
+<!--Aqui voy a loopear por los ids de las preguntas del questionario-->
+    <div th:each="question : ${questions}">
+<!--Aqui voy a loop el map de las preguntas-->
+        <p th:text="${question}">
+<!--Aqui voy a loop el map de las opciones-->
+    </div>
+
+</body>
+</html>
